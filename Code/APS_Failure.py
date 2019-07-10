@@ -7,6 +7,7 @@ import mlp_aps
 import baselinemodel_aps
 import gc
 
+
 gc.collect()
 data_path = os.path.dirname(__file__)
 train_data_set = np.genfromtxt(os.path.join(data_path, "train_processed_aps.csv"), delimiter=',')
