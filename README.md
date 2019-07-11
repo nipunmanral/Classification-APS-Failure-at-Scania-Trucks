@@ -12,7 +12,9 @@ This should install all the necessary packages for the code to run.
 
 ## Dataset
 The dataset consists of data collected from heavy Scania trucks in everyday usage. The system in focus is the “Air Pressure system (APS) which generates pressurized air that are utilized in various functions in a truck, such as braking and gear changes.” This is a 2-class problem, and the goal is to predict the failure of components in the APS system, given various inputs.
-The training set labeled “SMALLER” is present in the **Code/Dataset/** folder and has been down-sampled by factor of 3 (stratified), from the complete training set. The test set is also present in the same folder.
+
+The training set labeled “SMALLER” is present in the **Code/Dataset/** folder and has been down-sampled by factor of 3 (stratified), from the complete training set. The test set is also present in the same folder. The dataset has 171 attributes.
+
 For more information on the dataset and to download the entire training data, visit the link:
 https://archive.ics.uci.edu/ml/datasets/APS+Failure+at+Scania+Trucks
 
