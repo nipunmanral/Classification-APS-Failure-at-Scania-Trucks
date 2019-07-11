@@ -46,6 +46,8 @@ Execute the `APS_Failure.py` file which runs the different classifiers:
 - Multilayer perceptron (*mlp_aps.py*)
 - Baseline Model (*baselinemodel_aps.py*)
 
+The classifiers are run on the data in the pre-processed files `train_processed_aps.csv` and `test_processed_aps.csv` obtained from the pre-processing stage.
+
 ## Conclusion
 The APS Failure at Scania Trucks dataset was evaluated using different classifiers on the test dataset and among all the classifiers, support vector machines with radial basis function kernel achieved the lowest total cost of 14,090$ using the down-sampled training dataset and 12,260$ using the complete training dataset.
 
